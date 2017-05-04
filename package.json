@@ -1,0 +1,32 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "rx": "^4.1.0",
+    "tanok": "^1.0.0",
+    "bigl-custom-creator": "^1.0.0"
+  }
+}
