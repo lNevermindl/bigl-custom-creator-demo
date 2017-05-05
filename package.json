@@ -1,23 +1,15 @@
 {
-  "name": "test-app",
+  "name": "bigl-custom-creator-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo page for bigl-custom-creator",
   "main": "build/index.js",
   "scripts": {
-    "build": "webpack --progress",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
+    "build": "webpack --progress"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-latest": "^6.24.1",
     "webpack": "^2.4.1"
   },
   "dependencies": {
