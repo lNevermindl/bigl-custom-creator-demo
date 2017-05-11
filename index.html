@@ -3,9 +3,38 @@
     <head>
         <meta charset="utf-8">
         <title>bigl-custom-creator-demo</title>
+        <style>
+            .header, .sidebar, .content {
+                padding: 20px;
+            }
+            .header {
+                border-bottom: 1px solid grey;
+            }
+            .sidebar {
+                float: left;
+                width: 200px;
+            }
+            .content {
+                margin-left: 240px;
+                border-left: 1px solid grey;
+            }
+            .title {
+                font-size: 20px;
+            }
+        </style>
     </head>
     <body>
-        <div id="app"></div>
+        <div class="header">
+            <div class="title">Admin Header</div>
+        </div>
+        <div class="sidebar">
+            <div class="title">Admin Sidebar</div>
+        </div>
+        <div class="content">
+            <div class="title">The Tool</div>
+            <br>
+            <div id="app"></div>
+        </div>
         <script src="build/index.js"></script>
     </body>
 </html>
