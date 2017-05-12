@@ -35,5 +35,11 @@ const presetTemplates = [
 ];
 const importJSON = null;
 const onExportJSON = null;
+const onUploadImage = null;
 
-biglCustomCreator(node, { presetTemplates: presetTemplates, importJSON: importJSON, onExportJSON: onExportJSON });
+biglCustomCreator(node, {
+    presetTemplates: presetTemplates,
+    importJSON: importJSON,
+    onExportJSON: onExportJSON,
+    onUploadImage: onUploadImage
+});
