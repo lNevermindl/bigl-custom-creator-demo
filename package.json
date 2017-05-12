@@ -21,6 +21,6 @@
     "react-dom": "^15.5.4",
     "rx": "^4.1.0",
     "tanok": "^1.0.0",
-    "bigl-custom-creator": "^1.1.0"
+    "bigl-custom-creator": "^1.1.3"
   }
 }
